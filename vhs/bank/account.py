@@ -4,6 +4,7 @@ from typing import Dict, Any, Optional
 from vhs.bank.ledger import Ledger, Event
 
 
+# TODO factory and state is missing!
 class Account(ABC):
     # Public
     id: int

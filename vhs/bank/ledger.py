@@ -8,7 +8,9 @@ class Event:
     amount: float
     purpose: str
     value_date: datetime.datetime = field(default_factory=datetime.datetime.today)
-    metadata: Dict[str, Any] = field(default_factory=dict)  # only "source" supported
+
+    # Only "source" and target supported atm
+    metadata: Dict[str, Any] = field(default_factory=dict)
 
 
 class Ledger:
