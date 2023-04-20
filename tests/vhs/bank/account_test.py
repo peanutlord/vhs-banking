@@ -61,7 +61,7 @@ def test_transactionaccount_transfer():
     acc1.deposit(50)
 
     ledger2 = Ledger()
-    acc2 = TransactionAccount(10001, "Yoanna Krapova", ledger2)
+    acc2 = TransactionAccount(10001, "Ivy Marchfelder", ledger2)
     acc2.deposit(50)
 
     acc1.transfer(acc2, 30)
